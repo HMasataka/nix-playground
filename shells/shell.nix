@@ -14,6 +14,6 @@ packages.mkShell {
 
   shellHook = ''
     echo "Welcome to nix-craft development environment"
-    exec fish
+    exec fish --no-config
   '';
 }
