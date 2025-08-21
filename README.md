@@ -15,3 +15,9 @@ nix develop
 ```bash
 nix develop #node
 ```
+
+## Nix環境かどうか確認
+
+```bash
+echo $IN_NIX_SHELL
+```

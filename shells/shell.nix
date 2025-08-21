@@ -5,6 +5,7 @@ packages.mkShell {
   buildInputs = with packages; [
     git
     docker
+    fish
   ];
 
   # ホストの環境と完全に分離する
@@ -13,5 +14,6 @@ packages.mkShell {
 
   shellHook = ''
     echo "Welcome to nix-craft development environment"
+    exec fish
   '';
 }
