@@ -33,3 +33,9 @@ nix develop #node
 ```bash
 echo $IN_NIX_SHELL
 ```
+
+## キャッシュ削除
+
+```bash
+nix-collect-garbage
+```
