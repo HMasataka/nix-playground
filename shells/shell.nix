@@ -4,7 +4,6 @@ packages.mkShell {
   # 基本的な開発ツール
   buildInputs = with packages; [
     git
-    docker
     fish
   ];
 
