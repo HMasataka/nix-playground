@@ -2,8 +2,8 @@
 
 packages.stdenv.mkDerivation {
   name = "hello-nix";
-  nativeBuildInputs = [
-      packages.gcc
+  nativeBuildInputs = with packages;[
+      gcc
   ];
   buildInputs = with packages;[
     # some packages
