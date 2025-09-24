@@ -9,5 +9,5 @@ packages.stdenv.mkDerivation {
     # some packages
   ];
   builder = ./builder.sh;
-  src = ./main.c;
+  src = ./main.cpp;
 }
